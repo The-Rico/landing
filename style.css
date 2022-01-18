@@ -1,156 +1,232 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 body {
-    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
+display: flex;
+flex-direction: column;
 }
-header {
-    
-}
+
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #1f2937;}
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-color: #1f2937;
+
+}
 .logo {
-    font-size: 36px;
-    color: #f9faf8;
-    font-weight: 900;
-    font-family: cursive;
+font-size: 36px;
+color: #f9faf8;
+font-weight: 900;
+font-family: cursive;
 }
 
 /*first section*/
 article {
-    display: flex;
-    background-color: #1f2937;
-    color: azure; 
-    
+display: flex;
+background-color: #1f2937;
+color: azure; 
+
 }
 
 .a1 {
-    padding: 60px;
-    margin-top: 30px;
-    margin-left: 130px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+padding: 60px;
+margin-top: 30px;
+margin-left: 130px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
 
 }
 .artcont {
-    height: auto;
-    width: 30%;
+height: auto;
+width: 30%;
 }
 h1 {
-    font-size: 48px;
-    font-weight: extra-bold;
-    color: #f9faf8;
+font-size: 48px;
+font-weight: extra-bold;
+color: #f9faf8;
 }
 
 
 h3 {
-    font-size: 18px;
-    color: #e5e7eb;
+font-size: 18px;
+color: #e5e7eb;
 }
 
-/*.sideimg
-{
-    display: flex;
-    background-color: rgb(122, 122, 122);
-    width: 600px;
-    height: 200px;
-    border: 2px solid rgb(0, 0, 0);
-    box-shadow: 0px 1px 3px rgb(0, 0, 0);
-    justify-content: center;
-    align-items: center;
-}*/
 img {
-    width: 600px;
-    height: 300px;
-    border: 2px solid rgb(0, 0, 0);
-    box-shadow: 0px 1px 3px rgb(0, 0, 0);
-    justify-content: center;
-    align-items: center;
+width: 600px;
+height: 300px;
+border: 2px solid rgb(0, 0, 0);
+box-shadow: 0px 1px 3px rgb(0, 0, 0);
+justify-content: center;
+align-items: center;
 }
 /* second section */
 .article2 {
-    background-color: #e6e6e6;
-    color: rgb(248, 248, 248);
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
-    padding: 80px;
+background-color: #e6e6e6;
+color: rgb(248, 248, 248);
+font-size: 48px;
+font-weight: bolder;
+color: #f9faf8;
+padding: 80px;
 
 }
 .a2 {
-    display: flex;
-    justify-content: center;
-    font-size: 36px;
-    font-weight: bolder;
-    color: #4b4b4b;
-    
+display: flex;
+justify-content: center;
+font-size: 36px;
+font-weight: bolder;
+color: #4b4b4b;
+
 }
 .artcont2 {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+display: flex;
+justify-content: center;
+gap: 30px;
 }
 
 .box1 {
-    margin-top: 30px;
-    width: 150px;
-    height: 150px;
-    border: 2px solid #3882f6;
-    box-shadow: 0px 1px 3px rgb(0, 0, 0);
-    border-radius: 20px;
-    display: flex;
-    
+margin-top: 30px;
+width: 150px;
+height: 150px;
+border: 2px solid #3882f6;
+box-shadow: 0px 1px 3px rgb(0, 0, 0);
+border-radius: 20px;
+display: flex;
+
 }
 
-p {
-    width: 150px;
-    font-size: 18px;
-    text-align: center;
-    margin: 3px;
-    font-family: sans-serif;
-    font-weight: 200;
+.artcon2 p {
+width: 150px;
+font-size: 18px;
+text-align: center;
+margin: 3px;
+font-family: sans-serif;
+font-weight: 200;
 }
+
+/*quotebox*/
+
+.quotebox {
+background-color: #cecece;
+color: rgb(248, 248, 248);
+font-size: 48px;
+font-weight: bolder;
+color: #f9faf8;
+padding: 50px;
+}
+.quotebox2 {
+display: flex;
+justify-content: center;
+font-size: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: italic;
+font-weight: lighter;
+color: #4b4b4b;
+margin-left: 25%;
+margin-right: 25%;
+}
+
+.quotebox3 {
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+
+.quotebox4 {
+margin-top: 30px;
+width: 150px;
+height: 150px;
+border: 2px solid #3882f6;
+box-shadow: 0px 1px 3px rgb(0, 0, 0);
+border-radius: 20px;
+display: flex;
+}
+h6 {
+width: 150px;
+font-size: 25px;
+text-align: right;
+margin: 0;
+margin-left: 30%;
+color: #4b4b4b;
+font-family: sans-serif;
+font-weight: 800;
+}
+/*               final box             */
+.finalbg {
+    background: #e6e6e6;
+}
+
+.finalbox {
+width: 100%;
+max-width: 800px;
+max-height: 200px;
+margin: 20px auto;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+"Helvetica Neue", Arial, sans-serif;
+}
+.finalbox2 {
+background:#3882f6;
+color: #fff;
+border-radius: 20px;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+h2 {
+margin-top: 0;
+}
+
+.finalbox2 > p {
+margin: 0;
+}
+
+.finalbox2 > button {
+border-color: white;
+display: flex;
+font-weight: 700;
+}
+/*footer*/
+
 
 
 
 /*MISCELLANIOUS*/
 ul {
-    display: flex;
-    list-style: none;
-    margin: 5px;
-    padding: 0;
-    gap: 0px
-  }
+display: flex;
+list-style: none;
+margin: 5px;
+padding: 0;
+gap: 0px
+}
 a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-  }
-  a:link, a:visited {
-    background-color: white;
-    color: black;
-    border: 2px solid rgb(0, 0, 0);
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+a:link, a:visited {
+background-color: white;
+color: black;
+border: 2px solid rgb(0, 0, 0);
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+border-radius: 10px;
+}
+
+a:hover, a:active {
+background-color: rgba(92, 129, 197, 0.473);
+color: white;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid black;
+    padding: 8px 25px;
     display: inline-block;
     border-radius: 10px;
-  }
-  
-  a:hover, a:active {
-    background-color: rgba(92, 129, 197, 0.473);
-    color: white;
-  }
-
-  button {
-      background-color: #3882f6;
-      color: white;
-      border: 2px solid black;
-      padding: 8px 25px;
-      display: inline-block;
-      border-radius: 10px;
-      cursor: pointer;
-      font-weight: 900;
-  }
+    cursor: pointer;
+    font-weight: 900;
+}
